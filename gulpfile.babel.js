@@ -213,11 +213,11 @@ gulp.task('build-pages', () => {
 gulp.task('html', () =>
   gulp.src('dist/**/*.html')
     .pipe(inlineSource())
-    .pipe(htmlmin({
-      collapseWhitespace: true,
-      processConditionalComments: true,
-      minifyJS: true,
-    }))
+    // .pipe(htmlmin({
+    //   collapseWhitespace: true,
+    //   processConditionalComments: true,
+    //   minifyJS: true,
+    // }))
     .pipe(gulp.dest('dist'))
 );
 

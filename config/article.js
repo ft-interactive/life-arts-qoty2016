@@ -44,7 +44,7 @@ export default () => ({ // eslint-disable-line
   title: 'FT quiz of the year 2016',
 
   // meta data
-  description: 'FT quiz of the year 2016',
+  description: 'A year’s supply of Laurent-Perrier Cuvée Rosé awaits the winner of this cultural challenge',
 
   /*
   TODO: Select Twitter card type -
