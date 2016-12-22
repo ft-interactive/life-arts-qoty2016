@@ -21,10 +21,10 @@ export default () => ({ // eslint-disable-line
     url: 'https://www.ft.com/life-arts',
   },
 
-  relatedArticle: {
-    text: '',
-    url: '',
-  },
+  // relatedArticle: {
+  //   text: 'Related article',
+  //   url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+  // },
 
   mainImage: {
     title: 'FT quiz of the year 2016',
