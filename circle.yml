@@ -14,9 +14,9 @@ dependencies:
     - sudo apt-get update
     - sudo apt-get install -y libstdc++-4.9-dev
 
-test:
-  post:
-    - npm run preflight
+# test:
+#   post:
+#     - npm run preflight
 
 deployment:
   s3: # this is just a custom name, could be anything
