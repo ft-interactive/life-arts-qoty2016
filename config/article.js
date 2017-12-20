@@ -1,17 +1,17 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '0dc2310c-c76b-11e6-9043-7e34c07b46ef',
+  id: '47075188-e590-11e7-97e2-916d4fbac0da',
 
   // canonical URL of the published page
   // https://ig.ft.com/sites/life-arts-qoty2016 get filled in by the ./configure script
-  url: 'https://ig.ft.com/sites/quiz/life-arts-qoty2016',
+  url: 'https://ig.ft.com/sites/quiz/life-arts-qoty-2017',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date('2016-12-22T15:00:00Z'),
+  publishedDate: new Date('2017-12-22T12:00:00Z'),
 
-  headline: 'FT quiz of the year 2016',
+  headline: 'FT quiz of the year 2017',
 
   // summary === standfirst (Summary is what the content API calls it)
   summary: 'A year’s supply of Laurent-Perrier Cuvée Rosé awaits the winner of this cultural challenge',
@@ -27,9 +27,9 @@ export default () => ({ // eslint-disable-line
   // },
 
   mainImage: {
-    title: 'FT quiz of the year 2016',
-    description: 'Montage of 2016 news images',
-    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Abc7218b4-c777-11e6-8f29-9445cac8966f?source=ig&width=700',
+    title: 'FT quiz of the year 2017',
+    description: 'Montage of gifts',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A41ab56c4-e592-11e7-a685-5634466a6915?source=ig&width=700',
     width: 700, // ensure correct width
     height: 394, // ensure correct height
   },
@@ -37,11 +37,11 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Ludovic Hunter-Tilney', url: 'https://www.ft.com/stream/authorsId/Q0ItTEgwMDMwMQ==-QXV0aG9ycw==' },
+    { name: 'Ludovic Hunter-Tilney', url: 'https://www.ft.com/ludovic-hunter-tilney' },
   ],
 
   // Appears in the HTML <title>
-  title: 'FT quiz of the year 2016',
+  title: 'FT quiz of the year 2017',
 
   // meta data
   description: 'A year’s supply of Laurent-Perrier Cuvée Rosé awaits the winner of this cultural challenge',
