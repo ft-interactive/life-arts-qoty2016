@@ -1,6 +1,6 @@
-# [life-arts-qoty2016](https://ig.ft.com/sites/life-arts-qoty2016)
+# [life-arts-qoty](https://ig.ft.com/sites/life-arts-qoty2016)
 
-> 
+>
 
 [![Build Status][circle-image]][circle-url] [![Dependency Status][devdeps-image]][devdeps-url]
 
